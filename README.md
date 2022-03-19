@@ -1,4 +1,7 @@
-# web-Exel
+# web-Excel
+
+core features of excel in browser
+
 
 styling:
 tailwind 
