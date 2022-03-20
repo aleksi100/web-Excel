@@ -1,15 +1,16 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 #main{
   grid-template-columns: repeat(30, minmax(0, 1fr));
   position: relative;
 }
-input, h3{
+.cell{
   text-align: center;
   position: absolute;
 }
-.invisible2{
+.cell > input{
+  cursor: cell;
+}
+#showEqu{
   display: none;
+  position: sticky;
+  left: 5rem;
 }
